@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  zomato:
+    image: vamsi032/v1:zomato
+    ports:
+      - "3000:1000"
+    deploy:
+      replicas: 2
