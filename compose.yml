@@ -1,7 +1,7 @@
-version: '3.8'
+version: '3'
 services:
   zomato:
-    image: vamsi032/v1:zomato
+    image: vamsi032/s2:food
     ports:
       - "3000:1111"
     deploy:
