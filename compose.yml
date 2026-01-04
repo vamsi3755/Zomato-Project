@@ -3,6 +3,6 @@ services:
   zomato:
     image: vamsi032/s2:food
     ports:
-      - "3000:1111"
+      - "3000:3000"
     deploy:
       replicas: 2
